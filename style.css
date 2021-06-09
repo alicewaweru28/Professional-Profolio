@@ -1,81 +1,82 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 a:hover {
-color: burlywood;
+color: rgb(103, 45, 240);
 }
 header {
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #546f7c;
-    color: #ffffff;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #942287;
+  color: #e02a2a;
 }
 
 header h1 {
-    display: inline-block;
-    
+  display: online-block;
+  
 }
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    color: #ffffff;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: left;
+  font-family: 'Arial', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  color: #28811c;
 }
 header nav ul li {
-    display: inline-block; 
-    color: #ffffff;  
+  display: inline-block; 
+  color: #e91717;  
 }
 header nav ul li a {
-    color: #ffffff;
+  color: #7e1f76;
 }
 article {
-    display: inline-flex;
+  display: inline-flex;
 }
 #profile_pic {
-    
-    width: 250px;
-    height: 320px;
-    position: relative;
-    left: 0;
+  
+  width: 600px;
+  height: 500px;
+  position: relative;
+  left: 0;
+  background-image: url(https://github.com/alicewaweru28/Professional-Profolio/blob/main/README.md);
 }
 .about_me {
-    box-sizing: border-box;
-    border: 5px solid black;
-    padding: 30px;
-    margin: 30px;
-    border-radius: 25px;
+  box-sizing: border-box;
+  border: 5px solid rgb(165, 159, 231);
+  padding: 30px;
+  margin: 30px;
+  border-radius: 25px;
 }
 
 
 
 
- h1 {
-    font-size: 38px;
+h1 {
+  font-size: 38px;
 }
 .projects:hover {
-  
- opacity: 0.5;   
+
+opacity: 0.5;   
 
 }
 
 #p1 {
-   
-    height: 400px;
-    border: 5px solid black;
-    margin: 10px 30px 10px 10px;
-    background-image: url(./assets/imgs/P1.jpg);
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
-    border-radius: 25px;
+ 
+  height: 400px;
+  border: 5px solid rgb(118, 48, 175);
+  margin: 10px 30px 10px 10px;
+  background-image: url(./assets/imgs/P1.jpg);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 25px;
 }
 
 h2 {
-    background-color: ivory;
-    width: 160px;
-    height: 30px;
+  background-color: rgb(164, 56, 185);
+  width: 160px;
+  height: 30px;
 }
 
 
@@ -86,57 +87,52 @@ height: 400px;
 margin-right: 0;
 flex-wrap: wrap;
 
-}    
-.work3 {
-    width: 47%;
-    margin: 10px;
-    border: 5px solid black;  
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
-    border-radius: 25px;
+
 }
 #p2 {
-    background-image: url(./assets/imgs/P2.jpg);
-    
+  background-image: url(./assets/imgs/P2.jpg);
+  
 }
 #p3 {
-    background-image: url(./assets/imgs/P3.jpg);
-   
+  background-image: url(./assets/imgs/P3.jpg);
+ 
 }
 #p4 {
-    background-image: url(./assets/imgs/P4.jpg);
-    
+  background-image: url(./assets/imgs/P4.jpg);
+  
 }
 #p5 {
-    background-image: url(./assets/imgs/P6.jpg);
+  background-image: url(./assets/imgs/P6.jpg);
 
 }
 
 footer h1 {
-    
-    text-align: center;
-    
+  
+  text-align: center;
+  
 }
 
 
 footer ul li  {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: fit-content ;
-    height: fit-content;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: fit-content ;
+  height: fit-content;
 
-    position: relative;
-    left: 42%;
+  position: relative;
+  left: 42%;
 
 }
 @media screen and (min-width: 798px) {
-    main {
-        flex-wrap: wrap;
-    }
+  main {
+      flex-wrap: wrap;
+  }
 }
+
+
+  
 
 
     
